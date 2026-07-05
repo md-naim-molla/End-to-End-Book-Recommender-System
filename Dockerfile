@@ -14,7 +14,7 @@ RUN apt-get update && apt-get install -y \
     git \
     && rm -rf /var/lib/apt/lists/*
 
-RUN git clone https://github.com/entbappy/ML-Based-Book-Recommender-System.git .
+RUN git clone https://github.com/md-naim-molla/End-to-End-Book-Recommender-System.git .
 
 COPY . /app
 
